@@ -1,4 +1,4 @@
-module github.com/89z/rosso
+module github.com/akinazuki/rosso
 
 go 1.19
 
