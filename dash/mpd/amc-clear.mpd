@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT42M45.568S" minBufferTime="PT2.000S">
+  <Period>
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <SegmentTemplate initialization="http://redirector.playback.us-east-1.prod.deploys.brightcove.com/v1/6245817279001/788c9c28-e312-4fa6-b589-f94a2284aef5/xd9/$RepresentationID$/init.m4f" media="http://redirector.playback.us-east-1.prod.deploys.brightcove.com/v1/6245817279001/788c9c28-e312-4fa6-b589-f94a2284aef5/xd9/$RepresentationID$/segment$Number$.m4f" startNumber="0" timescale="48000">
+        <SegmentTimeline>
+          <S d="285696" r="430"></S>
+          <S d="12288"></S>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation audioSamplingRate="48000" bandwidth="127000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <SegmentTemplate initialization="http://redirector.playback.us-east-1.prod.deploys.brightcove.com/v1/6245817279001/788c9c28-e312-4fa6-b589-f94a2284aef5/xd9/$RepresentationID$/init.m4f" media="http://redirector.playback.us-east-1.prod.deploys.brightcove.com/v1/6245817279001/788c9c28-e312-4fa6-b589-f94a2284aef5/xd9/$RepresentationID$/segment$Number$.m4f" startNumber="0" timescale="25">
+        <SegmentTimeline>
+          <S d="150" r="426"></S>
+          <S d="89"></S>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="248000" codecs="avc1.4d000d" frameRate="25/1" height="216" id="4e8a412b-ed9d-4176-b7ec-f08f3d536c50" width="384"></Representation>
+      <Representation bandwidth="432000" codecs="avc1.4d0015" frameRate="25/1" height="288" id="352202a6-f82b-40aa-8e50-218a2f29972c" width="512"></Representation>
+      <Representation bandwidth="834000" codecs="avc1.4d001e" frameRate="25/1" height="432" id="6892f5a5-31e2-4a69-994e-28f640e074c2" width="768"></Representation>
+      <Representation bandwidth="1650000" codecs="avc1.4d001f" frameRate="25/1" height="648" id="6f7890c3-bf6e-46e3-a5e1-e4a29c213aab" width="1152"></Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="text/vtt" lang="en">
+      <Representation bandwidth="256" id="subtitle_en">
+        <BaseURL>http://redirector.playback.us-east-1.prod.deploys.brightcove.com/v1/6245817279001/788c9c28-e312-4fa6-b589-f94a2284aef5/1ba594b5-aadd-42fd-9ba8-87da817125e5/fde10171-3bec-46d0-8e51-16e9b706e7f1.vtt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="image/jpeg" contentType="image">
+      <SegmentTemplate duration="10" media="http://amcplus-a.akamaized.net/image/v1/sprite/6245817279001/1ba594b5-aadd-42fd-9ba8-87da817125e5/1s/$RepresentationID$/5x2/tile_$Number$.jpg?akamai_token=exp=1656794267~acl=/image/v1/sprite/6245817279001/1ba594b5-aadd-42fd-9ba8-87da817125e5/*~hmac=12367996fe369d153aa3eb4a28551e90025756b896920138084af7df2fbaad2d" startNumber="1" timescale="1"></SegmentTemplate>
+      <Representation bandwidth="248000" height="432" id="1920x432" width="1920">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x2"></EssentialProperty>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
