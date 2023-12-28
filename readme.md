@@ -35,7 +35,7 @@ Data parsers and formatters
 I only provide paid support for issues. Any issue without payment of at least
 9 USD will be closed immediately. Payment can be made to one of:
 
-- https://github.com/sponsors/89z
+- https://github.com/sponsors/akinazuki
 - <https://paypal.com/donate?hosted_button_id=UEJBQQTU3VYDY>
 
 Software is not licensed for commercial use. If you wish to purchase a
